@@ -1,0 +1,206 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+#landing-header {
+    height: 100vh;
+    background-image: url(../images/background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0% 20%;
+    background-size: cover;
+}
+#mainNav {
+    margin: 0 0;
+    padding-top: 10px;
+    -webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+#welcome {
+    color: white;
+    line-height: 75px;
+    text-align: center;
+    padding: 220px 0;
+}
+#welcome .hello {
+    font-size: 75px;
+    font-weight: 700;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding-bottom: 50px;
+}
+
+#welcome .intro {
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+}
+.caption {
+    text-align: center;
+}
+a {
+  color: grey;
+}
+a:visited {
+  color: grey;
+}
+.row {
+    border-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+   opacity: 1;
+   transition: .5s ease;
+   backface-visibility: hidden;
+   width: 100%;
+   max-height: 100vh;
+   display: block;
+   object-fit: cover;
+}
+.thumb-cover {
+  position: absolute;
+  opacity: 0;
+  transition: .5s ease;
+  width: 100%;
+  height: 100%;
+  top: 40%;
+  left: 0;
+  text-align: center;
+}
+.thumb-text {
+  color: grey;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.thumb-pic {
+  position: relative;
+}
+.thumb-pic:hover img {
+  opacity: 0.2;
+}
+.thumb-pic:hover .thumb-cover {
+  opacity: 1;
+}
+.col-md-4.col-sm-6.col-xs-12 {
+  margin-bottom: 5px;
+}
+
+.fas {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fas:hover {
+  color: black;
+}
+#works {
+
+}
+#skills {
+    height: 100vh;
+    background-color: #F9E1B5;
+}
+.sectionHead {
+    height: 15%;
+    font-size: 50px;
+    font-weight: 800;
+    color: #000000;
+    line-height: 75px;
+    text-align: center;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.skillset {
+    padding-top: 0;
+    height: 85%;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 6rem;
+    display: block;
+    justify-content: center;
+    margin: 0 0;
+}
+.skillcategory {
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+.skillcategory:nth-child(2n+1) {
+    background-color: #FDEBD0;
+}
+.skillHead{
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+}
+.skill {
+    width: 6%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 25px;
+    margin: 0 20px;
+}
+.skill p {
+    font-size: 2rem;
+}
+#contact {
+  height: 100vh;
+}
+.contactArea {
+  height: 85%;
+
+}
+.contactForm {
+  width: 85%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contactPic {
+  width: 30%;
+  height: 100%;
+  border-radius: 15px 0px 0 15px;
+  background-image: url(../images/contactbackground.jpeg);
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center; 
+}
+.form {
+  width: 70%;
+  padding: 20px 20px;
+}
+form {
+   margin-bottom: 30px;
+}
+.linkicon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
